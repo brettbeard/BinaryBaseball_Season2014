@@ -1,0 +1,3 @@
+[submodule "Season2014_Application/library"]
+	path = Season2014_Application/library
+	url = https://github.com/brettbeard/BinaryBaseball.git
