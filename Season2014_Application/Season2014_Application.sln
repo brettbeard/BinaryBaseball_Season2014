@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Season2014_Application", "Season2014_Application\Season2014_Application.csproj", "{6C9A96BF-5448-489D-9428-B70CD5EAEC12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryBaseball.Common", "library\BinaryBaseball.Common\BinaryBaseball.Common.csproj", "{7158D0F6-1EEA-4D33-8A1E-BD5133F5E40B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{2E76C758-7026-426F-B818-D42DFD4B40D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryBaseball.Simulation", "library\BinaryBaseball.Simulation\BinaryBaseball.Simulation.csproj", "{E7CF346C-7030-4C78-9404-27EC030AAC4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryBaseball.SBS", "library\BinaryBaseball.SBS\BinaryBaseball.SBS.csproj", "{5C5E3D07-766F-4773-BB79-714947190831}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +23,25 @@ Global
 		{6C9A96BF-5448-489D-9428-B70CD5EAEC12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C9A96BF-5448-489D-9428-B70CD5EAEC12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C9A96BF-5448-489D-9428-B70CD5EAEC12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7158D0F6-1EEA-4D33-8A1E-BD5133F5E40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7158D0F6-1EEA-4D33-8A1E-BD5133F5E40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7158D0F6-1EEA-4D33-8A1E-BD5133F5E40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7158D0F6-1EEA-4D33-8A1E-BD5133F5E40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CF346C-7030-4C78-9404-27EC030AAC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CF346C-7030-4C78-9404-27EC030AAC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CF346C-7030-4C78-9404-27EC030AAC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CF346C-7030-4C78-9404-27EC030AAC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5E3D07-766F-4773-BB79-714947190831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5E3D07-766F-4773-BB79-714947190831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5E3D07-766F-4773-BB79-714947190831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5E3D07-766F-4773-BB79-714947190831}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7158D0F6-1EEA-4D33-8A1E-BD5133F5E40B} = {2E76C758-7026-426F-B818-D42DFD4B40D7}
+		{E7CF346C-7030-4C78-9404-27EC030AAC4A} = {2E76C758-7026-426F-B818-D42DFD4B40D7}
+		{5C5E3D07-766F-4773-BB79-714947190831} = {2E76C758-7026-426F-B818-D42DFD4B40D7}
 	EndGlobalSection
 EndGlobal
